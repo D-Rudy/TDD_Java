@@ -10,3 +10,25 @@ Pour des nombre de 1 à 100:
 ```java
 "12Fizz4BuzzFizz78FizzBuzz11Fizz1314FizzBuzz"
 ```
+
+***
+
+# Rendu de monnaie TDD
+
+Étant donné un montant total à payer et les montants disponibles dans la caisse, écrire un programme qui calcule le rendu de monnaie à rendre en utilisant le moins de pièces et de billets possible.
+
+Par exemple, si le montant total à payer est 18,50 € et les montants disponibles sont des pièces de 1 centime, des pièces de 2 centimes, des pièces de 5 centimes, des pièces de 10 centimes, des pièces de 20 centimes, des pièces de 50 centimes, des billets de 5 euros et des billets de 10 euros, le programme doit calculer le rendu de monnaie en utilisant le moins de pièces et de billets possible.
+
+### Affichage du résultat:
+ 
+ ``` java
+ Entrez un montant:
+ 18.5
+ 
+ On vous rend: 
+ 
+- 1 billet de 10 euros
+- 1 billet de 5 euros
+- 1 pièce de 2 euros
+- 1 pièce de 50 centimes
+```
